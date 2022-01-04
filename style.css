@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Common */
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+.btn {
+    display: inline-block;
+    width: 192px;
+    height: 60px;
+    background-image: linear-gradient(to right, #01a101f6, #d6c801);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+h2 {
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/* Header Section */
+.header-section {
+    padding: 30px 60px;
+}
+.header__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #18191f;
+    padding-top: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__title > span {
+    color: #26eb0c;
+}
+.header__menu ul.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.nav__item {
+    padding: 15px;
+    text-decoration: none;
+}
+.nav__link {
+    color: #18191f;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav__link:hover {
+    text-decoration: none;
+}
+.nav__link--book {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    margin-top: -17px;
+    line-height: 25px;
+    width: 160px;
+    height: 55px;
+    height: 55px;
+    transition: all 0.3s;
+    font-weight: normal;
+}
+.nav__link--book:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+span.top-btn {
+    background: #fff;
+    color: black;
+    display: inline-block;
+    padding: 11px;
+    border-radius: 50px;
+    width: 151px;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    margin-bottom: 200px;
+}
+.hero__text {
+    margin-top: 200px;
+    padding: 60px;
+    flex: 1;
+}
+.hero__title {
+    font-size: 60px;
+    color: #575757;
+    margin-bottom: 40px;
+}
+.hero__title--highlight {
+    color: #27a501;
+}
+.hero__description {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+    width: 70%;
+    line-height: 2rem;
+}
+.hero__img {
+    text-align: right;
+    flex: 1;
+    background-image: url(./images/shapes/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: 89% 92%;
+}
+.hero__img img {
+    margin-top: 90px;
+}
+
+/* About Section */
+.about-section {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about {
+    display: flex;
+}
+.about > * {
+    flex: 1;
+}
+
+.about__img {
+    position: relative;
+    text-align: center;
+    align-self: flex-end;
+    margin: 2px 100px 100px 100px;
+
+}
+.about__img img {
+    position: relative;
+    height: 50%;
+    top: -3px;
+    margin: 2px 30px 150px 30px;
+    
+}
+.about__text {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin: 240px 0 0 0;
+}
+.about__description {
+    color: #18191f;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.contact-section {
+    margin-top: 100px;
+    height: 800px;
+}
+
+.recipe__info{
+    margin: 0 30px;
+}
+
+.recipe__info h2{
+    display: flex;
+    align-items: center;
+    margin: 0 650px;
+}
+
+.recipe__info p{
+    margin: 0 410px;
+    padding: 50px;
+}
+
+form.form {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row > * {
+    flex: 1;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+textarea:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
